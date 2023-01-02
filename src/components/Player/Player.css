@@ -1,0 +1,56 @@
+.player {
+    position: relative;
+    height: 500px;
+    width: 1fr;
+    box-shadow: 2px 2px 4px gray;
+    background-color: rgb(249, 249, 241);
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+.player img {
+    width: 70%;
+}
+.btn-container{
+    width:95%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+
+}
+.card-btn{
+    padding: 10px 12px;
+    width: 31%;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;    
+}
+#cart-btn {
+    background-color: navy;
+    border: 1px slid navy;
+}
+#cart-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.card-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width:600px) {
+    .player{
+        width: 98%;
+        
+    }
+    
+}
